@@ -17,6 +17,9 @@ header{
 	z-index: 9999999;
 	background:  #E5E5E5;
 }
+header ul li {
+	cursor: pointer;
+}
 .header_sticky_content {
   padding: 16px;
 }
@@ -126,6 +129,7 @@ header{
 	background: #FF7A00;
 	border-radius: 90px;
 	border-color: transparent;
+	padding: 0.8rem 1rem;
 }
 .slider-cont .download_cv_link {
 	background: #000000;;
@@ -333,7 +337,9 @@ header{
 	width: 100%;
 }
 .footer_section .footer_section_img_div img{
-	width: 200px;
+	height: 40px;
+	margin-right: 8px;
+	margin-left: 8px;
 }
 
 .navbar-toggler-icon{
@@ -374,7 +380,7 @@ header{
 		padding:  2rem 3rem;
 	}
 .footer_section .footer_section_img_div img{
-	width: 140px;
+	height: 30px;
 }
 
 
